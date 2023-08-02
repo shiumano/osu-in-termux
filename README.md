@@ -33,7 +33,10 @@ Package Detailsの枠の一番下にzipがあります
 
 とりあえずこれで起動できるはずです
 
-できればvirglでやった方がいいでしょう
+あとはzinkを入れましょう
+https://www.reddit.com/r/termux/comments/15dpv5y/prootdistro_ubuntu_adreno_7xx_gpu_series/
+
+VirGLでもできなくはないですがあんまりおすすめはしません
 
 https://github.com/xDoge26/Proot-Setup#41-virgl-es-recommended
 

@@ -21,7 +21,9 @@ https://github.com/shiumano/osu-in-termux/releases/download/v0/libveldrid-spirv.
 これを/usr/libに入れてください
 
 https://aur.archlinux.org/packages/libbass
+
 https://aur.archlinux.org/packages/libbassmix
+
 https://aur.archlinux.org/packages/libbass_fx
 
 この３つは偉大なるAURにビルド済みバイナリがあるのでありがたく使いましょう
@@ -43,7 +45,7 @@ https://github.com/xDoge26/Proot-Setup#41-virgl-es-recommended
 ここを参考にインストールしてください
 
 # 発生するバグ・問題点
-・動作が遅い(llvmpipeで10fps virglで30~40fps)
+・動作が遅い(llvmpipeで10fps virgl or zinkで30~40fps メニューではたまに90fps出たりもする)
 
 ・音がすごくずれてる
 　・オフセットは-100msくらいがちょうどよかった
@@ -55,3 +57,6 @@ https://github.com/xDoge26/Proot-Setup#41-virgl-es-recommended
 　・triangles effectが無い
 
 ・背景の動画が再生されない
+
+・あまり関係無いけど修正版prootだとwineが動かない
+　・公式リポジトリ版ではビルドはできないけど実行はできるのでビルドするときだけ修正版を使うべき

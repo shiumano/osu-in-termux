@@ -22,7 +22,7 @@ https://github.com/veldrid/veldrid-spirv
 
 This is a pain in the ass to build, so I'll leave the binaries here
 
-https://github.com/shiumano/osu-in-termux/releases/download/untagged-f391e7a33328bf337f6c/libveldrid-spirv.so
+https://github.com/shiumano/osu-in-termux/releases/download/v0/libveldrid-spirv.so
 
 Put this in /usr/lib
 

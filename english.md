@@ -51,12 +51,12 @@ https://github.com/xDoge26/Proot-Setup#41-virgl-es-recommended
 Please refer to here to install it
 
 # Bugs and problems that occur
-Slow (10fps with llvmpipe, 30~40fps with virgl)
-Sound is very off.
-　Offset should have been -100ms.
-　Sound is off by +200ms, so volume of sound effect should be 0.
-Some virgl moments.
-　Pie chart is rotten.
-　The music information is white.
-　No triangles effect.
-The background video doesn't play.
++ Slow (10fps with llvmpipe, 30~40fps with virgl)
++ Sound is very off.
+  + Offset should have been -100ms ~ -125ms.
+  + Sound is off by +200ms, so volume of sound effect should be 0.
++ Some virgl moments.
+  + Pie chart is rotten.
+  + The music information is white.
+  + No triangles effect.
++ The background video doesn't play.

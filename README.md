@@ -36,7 +36,8 @@ Package Detailsの枠の一番下にzipがあります
 とりあえずこれで起動できるはずです
 
 あとはzinkを入れましょう
-https://www.reddit.com/r/termux/comments/15dpv5y/prootdistro_ubuntu_adreno_7xx_gpu_series/
+
+https://www.reddit.com/r/termux/comments/16fmwb9/proot_only_dri3_patch_freedreno_turnip_driver_new/
 
 VirGLでもできなくはないですがあんまりおすすめはしません
 
@@ -46,8 +47,8 @@ https://github.com/xDoge26/Proot-Setup#41-virgl-es-recommended
 
 # 発生するバグ・問題点
 + 動作が遅い
-  + llvmpipeで10fps virgl or zinkで30~40fps
-  + メニューではたまに90fps出たりもする
+  + llvmpipeで10fps virgl or zinkで30~40fps zink der3で40~60fps
+  + メニューではたまに90fps出たりもする zink dri3だとタイトル画面で240fps出た
 
 + 音がすごくずれてる
   + オフセットは-100msくらいがちょうどよかった
